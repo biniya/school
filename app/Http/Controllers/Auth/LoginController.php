@@ -31,7 +31,7 @@ class LoginController extends Controller
         $user = Auth::user();
 
         if($user->user_type === 'admin') {
-            return route('admin');
+            return route('school');
         }
         elseif ($user->user_type ==='school'){
             return route("school");

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="" />
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/School.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_110347_create_school_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/school-edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/School.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/school.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/school-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +33,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,6 +143,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jVLc1FT8MLmrPXORofGBVxEeue" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -168,14 +195,50 @@
       <workItem from="1605267776680" duration="4943000" />
       <workItem from="1605273213036" duration="5199000" />
       <workItem from="1605335676226" duration="22910000" />
-      <workItem from="1605424798162" duration="1242000" />
+      <workItem from="1605424798162" duration="5419000" />
+      <workItem from="1605519471411" duration="4158000" />
+      <workItem from="1605592437656" duration="8601000" />
+      <workItem from="1605773728228" duration="3556000" />
+      <workItem from="1605960226340" duration="1291000" />
+      <workItem from="1606206973994" duration="7507000" />
+      <workItem from="1606229393948" duration="929000" />
+      <workItem from="1606284333545" duration="6790000" />
+      <workItem from="1606388421062" duration="11043000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1605434955557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605434955557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="134" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605595891707">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="368" y="134" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1605595891707" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605346420691">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -200,10 +263,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604071429282" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605345403157">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1606225593370">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605345403157" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606225593370" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1605434757746">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -212,5 +275,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1605434758120" />
+    <state x="232" y="0" width="876" height="725" key="dock-window-1" timestamp="1605597255214">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="232" y="0" width="876" height="725" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1605597255214" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1605596629003">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1605596629003" />
   </component>
 </project>

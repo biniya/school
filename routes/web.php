@@ -25,8 +25,10 @@ Route::get('logout', 'AuthController@logout');
 Route::get('about-us', 'AboutUs@index')->name("about-us");
 Route::get('search', 'Search@index')->name("search");
 Route::get('admin', 'Admin@index')->name("admin");
-Route::get('school', 'School@index')->name("school");
-
+//Route::get('school', 'SchoolController@index')->name("school");
+Route::get('school-form', 'SchoolController@registrationForm')->name("school-form");
+Route::post('post-school','SchoolController@registerSchool')->name('register-school');
+Route::resource("school","SchoolController");
 
 
 Route::get('/home', 'HomeController@index')->name('home');

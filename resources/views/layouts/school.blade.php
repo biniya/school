@@ -8,18 +8,8 @@
                         General
                     </p>
                     <ul class="menu-list">
-                        <li><a class="is-active" href="">Profile</a></li>
-                    </ul>
-                    <p class="menu-label is-active">
-                        Course management
-                    </p>
-                    <ul class="menu-list">
-                        <li><a>Interaction</a></li>
-                        <li>
-                            <a class="">Manage</a>
-
-                        </li>
-                        <li><a>Invitations</a></li>
+                        <li><a class="" href="/school">Profile</a></li>
+                        <li><a class="" href="">School management</a></li>
                     </ul>
                 </nav>
             </aside>
