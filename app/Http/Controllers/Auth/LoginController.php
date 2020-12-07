@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use App\School;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
 
@@ -31,13 +32,15 @@ class LoginController extends Controller
         $user = Auth::user();
 
         if($user->user_type === 'admin') {
-            return route('school');
+            return '/school';
         }
         elseif ($user->user_type ==='school'){
-            return route("school");
+            $school = School::find(1);
+            return route('school-admin-index');
+//            return $school;
         }
 
-        return route("home");
+      return '/user';
     }
 
     /**

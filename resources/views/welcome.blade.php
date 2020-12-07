@@ -99,12 +99,11 @@
                         <article class="tile is-child notification is-family-secondary">
                             <p class="subtitle">Best Schools....</p>
                             <p class="is-small">Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile
+                                All the key info about every
+                                International School in Addis Ababa:
+                                their extracurricular activies,
+                                if teachers are native, class sizes, fees,
+                                school bus availability, etc.
                             </p>
                         </article>
                         <article class="tile is-child notification is-family-secondary">

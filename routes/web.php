@@ -24,11 +24,17 @@ Route::get('dashboard', 'AuthController@dashboard');
 Route::get('logout', 'AuthController@logout');
 Route::get('about-us', 'AboutUs@index')->name("about-us");
 Route::get('search', 'Search@index')->name("search");
-Route::get('admin', 'Admin@index')->name("admin");
-//Route::get('school', 'SchoolController@index')->name("school");
-Route::get('school-form', 'SchoolController@registrationForm')->name("school-form");
-Route::post('post-school','SchoolController@registerSchool')->name('register-school');
+//Route::get('school-admin', 'Admin@index')->name("school-admin");
+Route::get('school', 'SchoolController@index')->name("school");
 Route::resource("school","SchoolController");
+Route::get("school-admin-index","SchoolAdminController@index")->name('school-admin-index');
+Route::resource("school-admin","SchoolAdminController");
+Route::get('school-settings', 'SchoolSettings@index')->name("school-settings");
+Route::get('user', 'UserController@index')->name("user");
+Route::get('user-settings', 'UserSettings@index')->name("user-settings");
+Route::get('change-password', 'ChangePassword@index')->name("change-password");
+//Route::resource('user', 'UserController@index');
+//Route::resource('user-settings', 'UserSettings@index');
 
 
 Route::get('/home', 'HomeController@index')->name('home');

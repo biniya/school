@@ -100,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="select is-pulled-right">
+                        <div class="select is-pulled-left">
                             <select name="user_type">
                                 <option value="client">Client</option>
                                 <option value="school">School admin</option>
@@ -108,17 +108,21 @@
                             </select>
                         </div>
 
-                        <div class="field is-horizontal">
-                            <div class="field-label"></div>
-
-                            <div class="field-body">
-                                <div class="field is-grouped">
-                                    <div class="control">
-                                        <button type="submit" class="button is-primary">Register</button>
-                                    </div>
+                        <div class="select is-pulled-right">
+                            <select name="school">
+                                <option>School</option>
+                                @if(count($schools)>0)
+                                    @foreach($schools as $school)
+                                    <option value="{{$school->id}}">{{$school->name}}</option>
+                                    @endforeach
+                                    @endif
+                            </select>
+                        </div>
+                            <div class="is-fullwidth has-text-centered" style="padding-top: 70px">
+                                <div class=" has-text-centered">
+                                        <button type="submit" class="button is-primary is-centered">Register</button>
                                 </div>
                             </div>
-                        </div>
                     </form>
                 </div>
             </div>

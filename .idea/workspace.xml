@@ -10,19 +10,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/School.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_110347_create_school_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/school-edit.blade.php" afterDir="false" />
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChangePassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolAdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_28_123352_add_school_id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/change-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/school-settings.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/School.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/school.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/school-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,16 +163,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\school\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\school\resources\views" />
       <recent name="D:\Projects\school\resources\views\layouts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\school\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -203,7 +214,13 @@
       <workItem from="1606206973994" duration="7507000" />
       <workItem from="1606229393948" duration="929000" />
       <workItem from="1606284333545" duration="6790000" />
-      <workItem from="1606388421062" duration="11043000" />
+      <workItem from="1606388421062" duration="13331000" />
+      <workItem from="1606553703190" duration="26985000" />
+      <workItem from="1606804667956" duration="15381000" />
+      <workItem from="1606994807214" duration="8860000" />
+      <workItem from="1607160062975" duration="3729000" />
+      <workItem from="1607172003669" duration="545000" />
+      <workItem from="1607176354106" duration="13803000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1605434955557</created>
@@ -212,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605434955557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table">
+      <created>1606402732675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606402732676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,17 +256,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="134" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605595891707">
+    <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607001136448" />
+    <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607160988615">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="368" y="134" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1605595891707" />
-    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605346420691">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1607160988615" />
+    <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1606643700094" />
+    <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607182110180">
+      <screen x="1366" y="0" width="1920" height="1050" />
     </state>
-    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605346420691" />
+    <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
+    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1605434754382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -263,14 +294,20 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604071429282" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1606225593370">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2093" y="415" key="NewPhpFileDialog" timestamp="1607248437760">
+      <screen x="1366" y="0" width="1920" height="1050" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606225593370" />
-    <state x="184" y="14" key="SettingsEditor" timestamp="1605434757746">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2093" y="415" key="NewPhpFileDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607248437760" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817651627" />
+    <state x="259" y="20" key="SettingsEditor" timestamp="1606998853016">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605434757746" />
+    <state x="259" y="20" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606998853016" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1606469474248">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606469474248" />
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605434758120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

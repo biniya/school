@@ -1,21 +1,24 @@
-@extends('layouts.school')
-@section('school-content')
-
+@extends('layouts.app')
+@section('content')
 
     <section class="hero is-link">
         <div class="hero-body">
             <div class="level">
-                <h5 class="has-text-weight-bold level-left">
+                <div class="level-left">
+                    <a class="button is-primary" href="/school/create">Add School</a>
+                </div>
+                <h5 class="has-text-weight-bold level is-size-3">
                     School List
                 </h5>
                 <div class="level-right">
-                    <a class="button is-primary" href="/school/create">Add</a>
+                    <a class="button is-primary" href="#">Notifcations</a>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <div class="container">
+    <div class="container" style="padding: 10px">
         <div class="columns is-centered">
             <table class="table is-striped is-narrow is-hoverable is-fullwidth">
                 <thead>

@@ -4,11 +4,13 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use App\School;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use phpDocumentor\Reflection\Types\Null_;
 
 class RegisterController extends Controller
 {
@@ -66,24 +68,36 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $school = -1;
+
+        // Checks if the user being registered is school-admin and sets the respective school selected
+        if ($data['user_type']=="school")
+            $school = $data['school'];
+
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'user_type' => $data['user_type']
+            'user_type' => $data['user_type'],
+            'school_id' =>$school
         ]);
     }
 
     protected function redirectTo() {
         $user = Auth::user();
-
         if($user->user_type === 'admin') {
-            return route('school');
+            return '/school';
         }
         elseif ($user->user_type ==='school'){
-            return route("school-form");
+            return route("school-admin-index");
         }
-
         return route("home");
     }
+
+    public function showRegistrationForm()
+    {
+        $schools = School::all();
+        return view("auth.register")->with("schools",$schools);
+    }
+
 }

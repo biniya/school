@@ -1,5 +1,16 @@
-@extends('layouts.school')
-@section('school-content')
+@extends('layouts.app')
+@section('content')
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Register School
+                </h1>
+            </div>
+        </div>
+    </section>
+    <div class="container card" style="margin:50px;padding: 30px">
     <form method="POST" action="/school">
         {{ csrf_field() }}
     <div class="field is-horizontal is-pulled-left">
@@ -117,5 +128,7 @@
     </div>
 
     </form>
+
+    </div>
 
 @endsection
