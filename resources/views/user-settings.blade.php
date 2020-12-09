@@ -14,17 +14,34 @@
                 </div>
             </div>
         </section>
-        <div class="container card " style="margin:0px;padding: 30px">
-        <section class="container">
-            <div class="columns features">
+        <div class="card " style="padding: 30px">
+        <section class="container ">
+            <div class="columns features is-desktop is-vcentered">
+{{--                Change Password Column--}}
                 <div class="column is-4">
-                    <div class="card is-shady" style="height: 100%">
+                    <div class="card is-shady" style="height: 325px">
+
                         <div class="card-content">
+                        <form method="POST" action="{{route("change-password")}}">
+                            @csrf
+                            <div class="content">
+                                <h4>Change Your Password</h4>
+                                <input class="input" id="email" type="password" placeholder="Old Password" name="current_password"><br><br>
+                                <input class="input" id="email" type="password" placeholder="New Password"><br><br>
+                                <input class="input" id="email" type="password" placeholder="Confirm Password" name="new_password" >
+                            </div>
+                            <button class="button is-link is-pulled-right" type="submit">Change Password</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                {{--                Invitation Card--}}
+                <div class="column is-4 is-desktop is-vcentered">
+                    <div class="card is-shady" style="height: 200px">
+                        <div class="card-content ">
                             <div class="content">
                                 <h4>Invite</h4>
-                                <p>Invite others </p>
-
-
                                 <div class="field-body">
                                     <div class="field is-expanded">
                                         <div class="field has-addons">
@@ -38,28 +55,14 @@
                                     </div>
                                 </div>
                                 <br>
-                                <br>
-                                <span class="button is-link modal-button">Invite</span>
+                                <span class="button is-link modal-button is-pulled-right">Invite</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="column is-4">
-                    <div class="card is-shady" style="height: 100%">
-
-                        <div class="card-content">
-                            <div class="content">
-                                <h4>Password</h4>
-                                <p>Protect your account, manage your password.</p>
-                            </div>
-                            <span class="button is-link modal-button " >Change Password</span>
-                        </div>
-
-                    </div>
-
-                </div>
+{{--                Contact Admin Column--}}
                 <div class="column is-4 modal-button" data-target="modal-image">
-                    <div class="card is-shady" style="height: 100%">
+                    <div class="card is-shady" style="height:325px;">
                         <div class="card-content">
                             <div class="content">
                                 <h4>Contact Admin</h4>
@@ -69,12 +72,13 @@
                                         <textarea class="textarea is-primary" placeholder="Textarea"></textarea>
                                     </div>
                                 </div>
-                                <span class="button is-link modal-button">Request</span>
+                                <span class="button is-link is-pulled-right">Request</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
+
+            </div>
                 <div class="columns features">
                 <div class="column modal-button" data-target="modal-card">
                     <div class="card is-shady" style="height: 100%">

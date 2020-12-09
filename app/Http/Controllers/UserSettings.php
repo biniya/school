@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class UserSettings extends Controller
 {
@@ -80,5 +83,37 @@ class UserSettings extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function changePassword(Request $request) {
+        // check if a user is logged in
+        if (!auth()->check()) {
+            // Return a 403
+            return response(['status' => 'fail', 'message' => 'Please login into your account to change password.'], 403);
+        }
+
+        // Validate the inputs
+//        $this->validate($request, [
+//            'current_password' => 'required',
+//            'new_password' => 'required|string|min:6|confirmed',
+//        ]);
+
+        // Check if the current password is correct
+        if (!Auth::attempt(['email' => auth()->user()->email, 'password' => $request->input('current_password')])) {
+            return response(
+                [
+                    'message' => 'The given data was invalid',
+                    'errors' => [ 'current_password' => ['The current password is incorrect.']]
+                ],
+                422
+            );
+        }
+
+//        // Change the password
+        $user = auth()->user();
+        $user->password = Hash::make($request->input('new_password'));
+        $user->save();
+
+        return response(['status' => 'success'], 200);
     }
 }

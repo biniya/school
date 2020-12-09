@@ -32,7 +32,7 @@ Route::resource("school-admin","SchoolAdminController");
 Route::get('school-settings', 'SchoolSettings@index')->name("school-settings");
 Route::get('user', 'UserController@index')->name("user");
 Route::get('user-settings', 'UserSettings@index')->name("user-settings");
-Route::get('change-password', 'ChangePassword@index')->name("change-password");
+Route::post('change-password', 'UserSettings@changePassword')->name("change-password");
 //Route::resource('user', 'UserController@index');
 //Route::resource('user-settings', 'UserSettings@index');
 

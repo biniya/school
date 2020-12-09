@@ -11,28 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChangePassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolAdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_28_123352_add_school_id.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/change-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/school-settings.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/school.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/school-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user-settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +23,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -162,6 +145,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -182,7 +167,10 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="" />
@@ -247,12 +235,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -269,11 +258,20 @@
     </state>
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1607160988615" />
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1606643700094" />
-    <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607182110180">
-      <screen x="1366" y="0" width="1920" height="1050" />
+    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607512765389">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
+    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512765389" />
+    <state x="2411" y="0" key="CommitChangelistDialog2" timestamp="1607512862348">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2411" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512862348" />
+    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607512860464">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512860464" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1605434754382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
