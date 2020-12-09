@@ -127,11 +127,33 @@
                     </div>
                     <div class="tile is-parent">
                         <article class="tile is-child notification is-family-secondary">
-                            <p class="subtitle">Middle tile</p>
-                            <p class="is-small">With an image</p>
-                            <figure class="image is-4by3">
-                                <img src="/images/students.jpg">
-                            </figure>
+                            <p class="title is-4">Reference Books</p>
+                          <div class="columns is-centered">
+                            <div class="card has-text-centered column" style="height:250px;width:300px;">
+                                <div class="card-content">
+                                    <p class="title is-4">
+                                      Extreme Book
+                                    </p>
+                                    <div class="content">
+                                        The Modern Language Association, the authority on research and writing, takes a fresh look at documenting sources in the eighth edition of the MLA Handbook.
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                            <br>
+                            <div class="columns is-centered">
+                                <div class="card has-text-centered column" style="height:250px;width:300px;">
+                                    <div class="card-content">
+                                        <p class="title is-4">
+                                            Top Book
+                                        </p>
+                                        <div class="content">
+                                            The Modern Language Association, the authority on research and writing, takes a fresh look at documenting sources in the eighth edition of the MLA Handbook. </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="button is-rounded is-black is-pulled-right" style="width:200px">View Reference Books</button>
+
                         </article>
                     </div>
                 </div>
@@ -183,7 +205,6 @@
                             </div>
                         </div>
                         <button class="button is-rounded is-black is-pulled-right" style="width:200px">View All Events</button>
-
                     </article>
                 </div>
             </div>
@@ -200,7 +221,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="tile is-parent">
+                <div class="tile is-parent" style="height: 100px;">
                     <article class="tile is-child notification is-family-secondary">
                         <p class="subtitle">Featured Schools.</p>
                         <p class="is-small">
@@ -237,7 +258,24 @@
                                 </div>
                             </div><br>
 
-                            <button class="button is-rounded is-black ">View All Featured Schools</button>
+                            <button class="button is-rounded is-black " style="margin-left:120px">View All Featured Schools</button>
+                            <p class="title is-4 is-pulled-left" style="margin-top:20px">
+                                ScholarShips
+                            </p>
+
+                            <div style="margin-top: 70px;">
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class=" title is-5">
+                                        Saint Joseph has announced to give 3 scholarships.
+                                    </p>
+                                    <p class="subtitle is-6" style="margin-top: 5px">
+                                        Saint Joseph has pledged to give 3 scholarships for 3 students with grade above 3.5.For more information visit saintjoseph.com or go to their main office which is located in Mesqel Square.
+                                    </p>
+                                </div>
+                            </div><br>
+                            <button class="button is-rounded is-black is-pulled-right ">View All Scholarships </button>
 
                         </div>
                     </article>
