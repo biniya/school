@@ -97,21 +97,32 @@
                 <div class="tile">
                     <div class="tile is-parent is-vertical">
                         <article class="tile is-child notification is-family-secondary">
-                            <p class="subtitle">Best Schools....</p>
-                            <p class="is-small">Aligned with the right tile
-                                All the key info about every
-                                International School in Addis Ababa:
-                                their extracurricular activies,
-                                if teachers are native, class sizes, fees,
-                                school bus availability, etc.
-                            </p>
-                        </article>
-                        <article class="tile is-child notification is-family-secondary">
-                            <p class="subtitle">...tiles</p>
-                            <p class="is-small">Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile
-                                Aligned with the right tile</p>
+                            <p class="title is-4">Current News</p>
+
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class=" title is-5">
+                                        Nati was awarded 1500br after wining the annual Science Fair
+                                    </p>
+                                    <p class="subtitle is-6" style="margin-top: 5px">
+                                        Gibson Youth Academy is a modern prison! If you want to sentence your child to prison send it here.
+                                    </p>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div><br>
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class=" title is-5">
+                                        Melat has scored the highest result in this year's ministry exam with 99.9%
+                                    </p>
+                                    <p class="subtitle is-6" style="margin-top: 5px">
+                                        Gibson Youth Academy is a modern prison! If you want to sentence your child to prison send it here.
+                                    </p>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div><br>
+                            <button class="button is-rounded is-black is-pulled-right" style="width:200px">View All News</button>
+
                         </article>
                     </div>
                     <div class="tile is-parent">

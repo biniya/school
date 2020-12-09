@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607520490586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Upcoming Events on the Welcome view&#10;&#10;- Add three cards as upcoming events on welcome page along with with view events">
+      <created>1607522052622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607522052622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +267,8 @@
     <MESSAGE value="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table" />
     <MESSAGE value="Add Change Password Logic&#10;&#10;- Change the change-password route&#10;- Change the change-password view&#10;- Add ChangePassword function in the controller" />
     <MESSAGE value="Add Featured Schools on the Welcome view&#10;&#10;- Add three cards as featured schools on welcome page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Featured Schools on the Welcome view&#10;&#10;- Add three cards as featured schools on welcome page" />
+    <MESSAGE value="Add Upcoming Events on the Welcome view&#10;&#10;- Add three cards as upcoming events on welcome page along with with view events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Upcoming Events on the Welcome view&#10;&#10;- Add three cards as upcoming events on welcome page along with with view events" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -278,10 +286,10 @@
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512765389" />
-    <state x="2411" y="0" key="CommitChangelistDialog2" timestamp="1607520490040">
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607522933551">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2411" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607520490040" />
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607522933551" />
     <state x="2258" y="172" key="DiffContextDialog" timestamp="1607515259396">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
