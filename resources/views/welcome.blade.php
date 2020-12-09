@@ -126,14 +126,53 @@
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child notification is-family-secondary">
-                        <p class="subtitle">Wide tile</p>
-                        <p class="is-small">Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile</p>
-                        <div class="content">
-                            <!-- Content -->
+                        <p class="title is-4 ">Upcoming Events</p>
+                        <div class="content columns">
+                            <div class="card column" style="margin-right:7px;">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class=" title is-5">
+                                            Kolfe Community Q&A Championship
+                                        </p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                        <a href="#">#css</a> <a href="#">#responsive</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card column" style="margin-right:7px;">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class=" title is-5">
+                                            Nifas Silk Community Q&A Championship
+                                        </p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                        <a href="#">#css</a> <a href="#">#responsive</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card column">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class=" title is-5">
+                                            Fuck Community Q&A Championship
+                                        </p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                        <a href="#">#css</a> <a href="#">#responsive</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <button class="button is-rounded is-black is-pulled-right" style="width:200px">View All Events</button>
+
                     </article>
                 </div>
             </div>
