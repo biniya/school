@@ -10,7 +10,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Laravel {{ app()->version() }}</title>
+    <title> School Finder</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -89,7 +89,7 @@
 <body>
 <section>
     <div class="container">
-        <div class="notification is-primary">
+        <div class="notification is-black">
             <strong> Find a great school for your child.</strong>
         </div>
         <div class="tile is-ancestor">
@@ -145,24 +145,50 @@
                         <input class="input" type="text" placeholder="Search">
                     </div>
                     <div class="control">
-                        <a class="button is-info" href="{{ route('search')}}">
+                        <a class="button is-black" href="{{ route('search')}}">
                             Search
                         </a>
                     </div>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child notification is-family-secondary">
-                        <p class="subtitle">We help millions of parents get a great education for their child.</p>
-                        <p class="is-small">Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile
-                            Aligned with the right tile
+                        <p class="subtitle">Featured Schools.</p>
+                        <p class="is-small">
                         </p>
                         <div class="content">
-                            <!-- Content -->
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class=" title is-5">
+                                      Gibson Youth Academy
+                                    </p>
+                                    <p class="subtitle is-6" style="margin-top: 5px">
+                                        Gibson Youth Academy is a modern prison! If you want to sentence your child to prison send it here.
+                                    </p>
+                                </div>
+                            </div><br>
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class=" title is-5">
+                                        Saint Joseph
+                                    </p>
+                                    <p class="subtitle is-6" style="margin-top: 5px">
+                                        Saint Joseph is a great school for boys.
+                                    </p>
+                                </div>
+                            </div><br>
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class=" title is-5">
+                                        Hawassa Schools
+                                    </p>
+                                    <p class="subtitle is-6" style="margin-top: 5px">
+                                     If you send your child to this school your child will be hyena(HODAM)!Please think twice this action cannot be undone.
+                                      </p>
+                                </div>
+                            </div><br>
+
+                            <button class="button is-rounded is-black ">View All Featured Schools</button>
+
                         </div>
                     </article>
                 </div>

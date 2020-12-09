@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table">
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user-settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606402732676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Change Password Logic&#10;&#10;- Change the change-password route&#10;- Change the change-password view&#10;- Add ChangePassword function in the controller">
+      <created>1607515331529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607515331529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +251,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add School Resources&#10;&#10;- Add school registration form&#10;- Add school edit form &#10;- Add school list table" />
+    <MESSAGE value="Add Change Password Logic&#10;&#10;- Change the change-password route&#10;- Change the change-password view&#10;- Add ChangePassword function in the controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Change Password Logic&#10;&#10;- Change the change-password route&#10;- Change the change-password view&#10;- Add ChangePassword function in the controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -264,14 +270,14 @@
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512765389" />
-    <state x="2411" y="0" key="CommitChangelistDialog2" timestamp="1607512862348">
+    <state x="2411" y="0" key="CommitChangelistDialog2" timestamp="1607515330821">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2411" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512862348" />
-    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607512860464">
+    <state x="2411" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607515330821" />
+    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607515259396">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607512860464" />
+    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607515259396" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1605434754382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -302,10 +308,11 @@
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605434757746" />
     <state x="259" y="20" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606998853016" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1606469474248">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2307" y="144" key="Vcs.Push.Dialog.v2" timestamp="1607517885648">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606469474248" />
+    <state x="2307" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607517885648" />
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605434758120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
