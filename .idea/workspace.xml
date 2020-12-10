@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add the Address in the Search Login&#10;&#10;- Add the Address in the search bar form&#10;- Add the searched address in the search view as a header">
+      <change afterPath="$PROJECT_DIR$/resources/views/details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,12 +154,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\school\resources\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\school\resources\views" />
       <recent name="D:\Projects\school\resources\views\layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kalid Abdu\Documents\Projects\school\resources\views" />
+      <recent name="D:\Projects\school\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -266,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607606444890</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add the Address in the Search Login&#10;&#10;- Add the Address in the search bar form&#10;- Add the searched address in the search view as a header">
+      <created>1607607201501</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607201501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +303,8 @@
     <MESSAGE value="Add Current News on the Welcome view&#10;&#10;- Add two cards as current news on welcome page along with with view news" />
     <MESSAGE value="Add Reference Books and Scholarship cards on the Welcome view&#10;&#10;- Add Scholarships and Reference book cards for welcome view" />
     <MESSAGE value="Add the Search Bar logic&#10;&#10;- Add Search Bar logic in the Search Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the Search Bar logic&#10;&#10;- Add Search Bar logic in the Search Controller" />
+    <MESSAGE value="Add the Address in the Search Login&#10;&#10;- Add the Address in the search bar form&#10;- Add the searched address in the search view as a header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the Address in the Search Login&#10;&#10;- Add the Address in the search bar form&#10;- Add the searched address in the search view as a header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -306,16 +316,16 @@
     </state>
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1607160988615" />
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1606643700094" />
-    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607602823291">
+    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607608243667">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
-    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607602823291" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607606444357">
+    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607608243667" />
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607607318997">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607606444357" />
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607607318997" />
     <state x="2258" y="172" key="DiffContextDialog" timestamp="1607606407019">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -340,11 +350,12 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604071429282" />
-    <state x="2093" y="415" key="NewPhpFileDialog" timestamp="1607248437760">
-      <screen x="1366" y="0" width="1920" height="1050" />
+    <state x="2647" y="411" key="NewPhpFileDialog" timestamp="1607608078641">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2093" y="415" key="NewPhpFileDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607248437760" />
     <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817651627" />
+    <state x="2647" y="411" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607608078641" />
     <state x="259" y="20" key="SettingsEditor" timestamp="1606998853016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

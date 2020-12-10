@@ -34,8 +34,13 @@ Route::get('school-settings', 'SchoolSettings@index')->name("school-settings");
 Route::get('user', 'UserController@index')->name("user");
 Route::get('user-settings', 'UserSettings@index')->name("user-settings");
 Route::post('change-password', 'UserSettings@changePassword')->name("change-password");
+
 //Route::resource('user', 'UserController@index');
 //Route::resource('user-settings', 'UserSettings@index');
+
+Route::resource("news","NewsController");
+Route::get("news-form","NewsController@create")->name("news-form");
+Route::post("news-register","NewsController@store")->name("news-register");
 
 
 Route::get('/home', 'HomeController@index')->name('home');
