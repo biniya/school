@@ -10,11 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add Reference Books and Scholarship cards on the Welcome view&#10;&#10;- Add Scholarships and Reference book cards for welcome view">
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607527939110</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add the Search Bar logic&#10;&#10;- Add Search Bar logic in the Search Controller">
+      <created>1607606444890</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607606444890</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +293,8 @@
     <MESSAGE value="Add Upcoming Events on the Welcome view&#10;&#10;- Add three cards as upcoming events on welcome page along with with view events" />
     <MESSAGE value="Add Current News on the Welcome view&#10;&#10;- Add two cards as current news on welcome page along with with view news" />
     <MESSAGE value="Add Reference Books and Scholarship cards on the Welcome view&#10;&#10;- Add Scholarships and Reference book cards for welcome view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Reference Books and Scholarship cards on the Welcome view&#10;&#10;- Add Scholarships and Reference book cards for welcome view" />
+    <MESSAGE value="Add the Search Bar logic&#10;&#10;- Add Search Bar logic in the Search Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the Search Bar logic&#10;&#10;- Add Search Bar logic in the Search Controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -304,14 +312,14 @@
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607602823291" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607601016701">
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607606444357">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607601016701" />
-    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607515259396">
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607606444357" />
+    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607606407019">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607515259396" />
+    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607606407019" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1605434754382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -342,11 +350,11 @@
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605434757746" />
     <state x="259" y="20" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606998853016" />
-    <state x="2307" y="144" key="Vcs.Push.Dialog.v2" timestamp="1607601021564">
+    <state x="2307" y="144" key="Vcs.Push.Dialog.v2" timestamp="1607607136335">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606469474248" />
-    <state x="2307" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607601021564" />
+    <state x="2307" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607607136335" />
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605434758120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

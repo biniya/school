@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section>
-    <div class="title is-2"> Search Results For " {{$searchQuery}} "</div>
+    <div class="title is-2"> Search Results For " {{$searchName}} " +"{{$searchAddress}}"</div>
     <div class="columns">
 
     @foreach($searchResult as $result)

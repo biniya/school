@@ -128,18 +128,18 @@
                     <div class="tile is-parent">
                         <article class="tile is-child notification is-family-secondary">
                             <p class="title is-4">Reference Books</p>
-                          <div class="columns is-centered">
-                            <div class="card has-text-centered column" style="height:250px;width:300px;">
-                                <div class="card-content">
-                                    <p class="title is-4">
-                                      Extreme Book
-                                    </p>
-                                    <div class="content">
-                                        The Modern Language Association, the authority on research and writing, takes a fresh look at documenting sources in the eighth edition of the MLA Handbook.
+                            <div class="columns is-centered">
+                                <div class="card has-text-centered column" style="height:250px;width:300px;">
+                                    <div class="card-content">
+                                        <p class="title is-4">
+                                            Extreme Book
+                                        </p>
+                                        <div class="content">
+                                            The Modern Language Association, the authority on research and writing, takes a fresh look at documenting sources in the eighth edition of the MLA Handbook.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                          </div>
                             <br>
                             <div class="columns is-centered">
                                 <div class="card has-text-centered column" style="height:250px;width:300px;">
@@ -212,18 +212,26 @@
 
 
 
-                    <form method="GET" action="{{route('search')}}">
-                        <div class="field has-addons">
-                    <div class="control">
-                        <input class="input" type="text" name="searchQuery" placeholder="Search">
-                    </div>
-                    <div class="control">
-                        <button class="button is-black">
-                            Search
-                        </button>
-                    </div>
+                <form method="GET" action="{{route('search')}}">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <input class="input" type="text" name="searchName" placeholder="Search">
                         </div>
-                    </form>
+                        <div class="control">
+                            <button class="button is-black">
+                                Search
+                            </button>
+                        </div>
+                        <div class="select">
+                         <select name="searchAddress">
+                             <option>Choose Address</option>
+                             @foreach($schoolAddress as $address)
+                             <option>{{$address->address}}</option>
+                                 @endforeach
+                         </select>
+                        </div>
+                    </div>
+                </form>
 
                 <div class="tile is-parent" style="height: 100px;">
                     <article class="tile is-child notification is-family-secondary">
@@ -234,7 +242,7 @@
                             <div class="card">
                                 <div class="card-content">
                                     <p class=" title is-5">
-                                      Gibson Youth Academy
+                                        Gibson Youth Academy
                                     </p>
                                     <p class="subtitle is-6" style="margin-top: 5px">
                                         Gibson Youth Academy is a modern prison! If you want to sentence your child to prison send it here.
@@ -257,8 +265,8 @@
                                         Hawassa Schools
                                     </p>
                                     <p class="subtitle is-6" style="margin-top: 5px">
-                                     If you send your child to this school your child will be hyena(HODAM)!Please think twice this action cannot be undone.
-                                      </p>
+                                        If you send your child to this school your child will be hyena(HODAM)!Please think twice this action cannot be undone.
+                                    </p>
                                 </div>
                             </div><br>
 

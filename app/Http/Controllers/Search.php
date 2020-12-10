@@ -10,14 +10,15 @@ class Search extends Controller
 {
     public function index(Request $request)
     {
-        $searchQuery = $request->input('searchQuery');
+        $searchName = $request->input('searchName');
+        $searchAddress = $request->input('searchAddress');
         $searchResult = DB::table('school')
-            ->where('school.name', 'LIKE', "%$searchQuery%")
-            ->orWhere('school.phone', 'LIKE', "%$searchQuery%")
+            ->where('school.name', 'LIKE', "%$searchName%")
+            ->orWhere('school.address', 'LIKE', "%$searchAddress%")
             ->get();
 
 
-        return view("search",compact('searchResult'))->with("searchQuery",$searchQuery);
+        return view("search",compact('searchResult'))->with("searchName",$searchName)->with("searchAddress",$searchAddress);
 
     }
 }

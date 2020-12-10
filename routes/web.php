@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $schoolAddress = \App\School::all();
+    return view('welcome')->with("schoolAddress",$schoolAddress);
 });
 Route::get('login', 'AuthController@index');
 Route::post('post-login', 'AuthController@postLogin');
