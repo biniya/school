@@ -222,7 +222,7 @@
                                 Search
                             </button>
                         </div>
-                        <div class="select">
+                        <div class="select" style="margin-left:10px;">
                          <select name="searchAddress">
                              <option>Choose Address</option>
                              @foreach($schoolAddress as $address)

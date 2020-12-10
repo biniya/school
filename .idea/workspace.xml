@@ -10,12 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add News Registration Form and table for viewing News&#10;&#10;- Add News Registration form&#10;- Add View to show the registered news">
-      <change afterPath="$PROJECT_DIR$/resources/views/details.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Search.php" afterDir="false" />
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607609336579</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Details page for the news and featured schools in the welcome page">
+      <created>1607612658034</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607612658034</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +315,8 @@
     <MESSAGE value="Add the Search Bar logic&#10;&#10;- Add Search Bar logic in the Search Controller" />
     <MESSAGE value="Add the Address in the Search Login&#10;&#10;- Add the Address in the search bar form&#10;- Add the searched address in the search view as a header" />
     <MESSAGE value="Add News Registration Form and table for viewing News&#10;&#10;- Add News Registration form&#10;- Add View to show the registered news" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add News Registration Form and table for viewing News&#10;&#10;- Add News Registration form&#10;- Add View to show the registered news" />
+    <MESSAGE value="Add Details page for the news and featured schools in the welcome page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Details page for the news and featured schools in the welcome page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -330,10 +334,10 @@
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607608243667" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607609335936">
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607612657590">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607609335936" />
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612657590" />
     <state x="2258" y="172" key="DiffContextDialog" timestamp="1607606407019">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
