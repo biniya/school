@@ -121,7 +121,7 @@
                                     <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                                 </div>
                             </div><br>
-                            <button class="button is-rounded is-black is-pulled-right" style="width:200px">View All News</button>
+                            <a class="button is-rounded is-black is-pulled-right" style="width:200px" href="/view-details?key=news">View All News</a>
 
                         </article>
                     </div>
@@ -152,7 +152,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button is-rounded is-black is-pulled-right" style="width:200px">View Reference Books</button>
+                            <a class="button is-rounded is-black is-pulled-right" style="width:200px" href="/view-details?key=reference">View Reference Books</a>
 
                         </article>
                     </div>
@@ -204,7 +204,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="button is-rounded is-black is-pulled-right" style="width:200px">View All Events</button>
+                        <a class="button is-rounded is-black is-pulled-right" style="width:200px" href="/view-details?key=events">View All Events</a>
                     </article>
                 </div>
             </div>
@@ -270,7 +270,7 @@
                                 </div>
                             </div><br>
 
-                            <button class="button is-rounded is-black " style="margin-left:120px">View All Featured Schools</button>
+                            <a class="button is-rounded is-black " style="margin-left:120px" href="/view-details?key=featured">View All Featured Schools</a>
                             <p class="title is-4 is-pulled-left" style="margin-top:20px">
                                 ScholarShips
                             </p>
@@ -287,7 +287,7 @@
                                     </p>
                                 </div>
                             </div><br>
-                            <button class="button is-rounded is-black is-pulled-right ">View All Scholarships </button>
+                            <a class="button is-rounded is-black is-pulled-right " href="/view-details?key=scholarship">View All Scholarships </a>
 
                         </div>
                     </article>
