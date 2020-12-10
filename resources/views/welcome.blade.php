@@ -211,16 +211,20 @@
             <div class="tile is-parent is-vertical">
 
 
-                <div class="field has-addons">
+
+                    <form method="GET" action="{{route('search')}}">
+                        <div class="field has-addons">
                     <div class="control">
-                        <input class="input" type="text" placeholder="Search">
+                        <input class="input" type="text" name="searchQuery" placeholder="Search">
                     </div>
                     <div class="control">
-                        <a class="button is-black" href="{{ route('search')}}">
+                        <button class="button is-black">
                             Search
-                        </a>
+                        </button>
                     </div>
-                </div>
+                        </div>
+                    </form>
+
                 <div class="tile is-parent" style="height: 100px;">
                     <article class="tile is-child notification is-family-secondary">
                         <p class="subtitle">Featured Schools.</p>
