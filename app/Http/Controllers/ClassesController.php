@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Classes;
 use App\School;
 use Illuminate\Http\Request;
+use phpDocumentor\Reflection\Utils;
 
 class ClassesController extends Controller
 {
@@ -78,9 +79,23 @@ class ClassesController extends Controller
      * @param  \App\Classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Classes $classes)
+    public function update(Request $request)
     {
-        //
+        $schools = School::get();
+        $reserved = Classes::where("school_id",$request->school)->where("grade",$request->class)->pluck("reserved");
+        $total = 0;
+        foreach($reserved as $key=>$value)
+        {
+            $total=$value+1;
+        }
+        $class = array(
+            'reserved'=>$total,
+        );
+
+
+        Classes::where("school_id",$request->school)->where("grade",$request->class)->update($class);
+
+        return view('user-settings')->with('schools',$schools)->with("success","You have successfully reserved a place in ".$request->class);
     }
 
     /**

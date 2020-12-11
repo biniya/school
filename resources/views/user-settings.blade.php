@@ -62,18 +62,42 @@
                 </div>
 {{--                Contact Admin Column--}}
                 <div class="column is-4 modal-button" data-target="modal-image">
-                    <div class="card is-shady" style="height:325px;">
+                    <div class="card is-shady" style="height:400px;">
                         <div class="card-content">
+                            <form method="POST"  action="{{route('class.update',1)}}">
+                                @csrf
+                                @method('PATCH')
                             <div class="content">
-                                <h4>Contact Admin</h4>
-                                <p>Here you can contact the admin to request anything </p>
+                                <h4>Reserve class</h4>
+
                                 <div class="field">
+                                    <label class="label">Select School</label>
                                     <div class="control">
-                                        <textarea class="textarea is-primary" placeholder="Textarea"></textarea>
+                                        <div class="select">
+                                            <select style="width:250px;" name="school">
+                                                @foreach($schools as $school)
+                                                    <option value="{{$school->id}}">{{$school->name}}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
-                                <span class="button is-link is-pulled-right">Request</span>
+                                <div class="field">
+                                    <label class="label">Enter Class</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Enter Class" name="class">
+                                    </div>
+                                </div>
+                                <button class="button is-link is-pulled-right">Reserve</button>
+                                <div class="control" style="margin-top: 50px;">
+                                @if($success != "")
+                                    <div class="notification is-primary is-light">
+                                        {{$success}}
+                                    </div>
+                                @endif
+                                </div>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>

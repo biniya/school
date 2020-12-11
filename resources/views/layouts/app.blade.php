@@ -34,7 +34,7 @@
                             @if (Auth::guest())
                                 <a class="navbar-item " href="{{ route('about-us')}}">About Us</a>
                                 <a class="navbar-item " href="{{ route('login') }}">Login</a>
-                                <a class="navbar-item " href="{{ route('register') }}">Register</a>
+                                <a class="navbar-item " href="{{ route('register-user') }}">Register</a>
 
                             @else
                                 <div class="navbar-item has-dropdown is-hoverable">

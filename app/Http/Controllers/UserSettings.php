@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\School;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -16,7 +17,8 @@ class UserSettings extends Controller
      */
     public function index()
     {
-        return view('user-settings');
+        $schools = School::get();
+        return view('user-settings')->with('schools',$schools)->with("success","");
     }
 
     /**

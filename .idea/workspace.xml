@@ -10,10 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="Add spacing to the select box in the search bar on the welcome page">
-      <change afterPath="$PROJECT_DIR$/resources/views/class.blade.php" afterDir="false" />
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register-user.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user-settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607612767013</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add class logic to the system&#10;&#10;-Admin can add classes to the school&#10;-Admin can view classes to a certain school">
+      <created>1607694129377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607694129377</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +338,8 @@
     <MESSAGE value="Add News Registration Form and table for viewing News&#10;&#10;- Add News Registration form&#10;- Add View to show the registered news" />
     <MESSAGE value="Add Details page for the news and featured schools in the welcome page" />
     <MESSAGE value="Add spacing to the select box in the search bar on the welcome page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add spacing to the select box in the search bar on the welcome page" />
+    <MESSAGE value="Add class logic to the system&#10;&#10;-Admin can add classes to the school&#10;-Admin can view classes to a certain school" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class logic to the system&#10;&#10;-Admin can add classes to the school&#10;-Admin can view classes to a certain school" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -339,20 +351,20 @@
     </state>
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1607160988615" />
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1606643700094" />
-    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607690251919">
+    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607694587002">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
-    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607690251919" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607688453647">
+    <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607694587002" />
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607694128676">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607688453647" />
-    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607606407019">
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607694128676" />
+    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607694039155">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607606407019" />
+    <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607694039155" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1605434754382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -373,12 +385,12 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604071429282" />
-    <state x="2647" y="411" key="NewPhpFileDialog" timestamp="1607690015509">
+    <state x="2647" y="411" key="NewPhpFileDialog" timestamp="1607697596507">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2093" y="415" key="NewPhpFileDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607248437760" />
     <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817651627" />
-    <state x="2647" y="411" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607690015509" />
+    <state x="2647" y="411" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607697596507" />
     <state x="259" y="20" key="SettingsEditor" timestamp="1606998853016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -397,9 +409,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="232" y="0" width="876" height="725" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1605597255214" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1605596629003">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2396" y="233" key="run.anything.popup" timestamp="1607695643727">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1605596629003" />
+    <state x="2396" y="233" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607695643727" />
   </component>
 </project>
