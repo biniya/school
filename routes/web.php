@@ -44,6 +44,8 @@ Route::post("news-register","NewsController@store")->name("news-register");
 
 Route::get("view-details","Search@viewDetails")->name("view-details");
 
+Route::resource("class","ClassesController");
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();

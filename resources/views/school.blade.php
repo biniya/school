@@ -48,6 +48,9 @@
                         <td>
                             <a href="{{route("school.edit",$school->id)}}" class="button is-info">Edit</a>
                         </td>
+                        <td>
+                            <a href="{{route("class.edit",$school->id)}}" class="button is-danger">Add Class</a>
+                        </td>
                         </tbody>
                     @endforeach
 
