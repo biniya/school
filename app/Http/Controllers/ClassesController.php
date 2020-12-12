@@ -108,4 +108,25 @@ class ClassesController extends Controller
     {
         //
     }
+
+    public  function reserveClass($id,$school_id)
+    {
+        $school = School::find($school_id);
+        $classes = Classes::where("school_id",$school_id)->get();
+        $reserved = Classes::where("school_id",$school_id)->pluck("reserved");
+        $total = 0;
+        foreach($reserved as $key=>$value)
+        {
+            $total=$value+1;
+        }
+        $class = array(
+            'reserved'=>$total,
+        );
+
+
+        Classes::where("id",$id)->update($class);
+
+        return view('school-details')->with("success","You have successfully reserved a place.")->with("school",$school)->with("classes",$classes);
+
+    }
 }

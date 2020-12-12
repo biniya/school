@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Classes;
 use Illuminate\Http\Request;
 use App\School;
 
@@ -111,5 +112,12 @@ class SchoolController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function schoolDetails($id){
+
+        $school = School::find($id);
+        $class = Classes::where("school_id",$id)->get();
+        return view("school-details")->with("school",$school)->with("classes",$class)->with("success","");
     }
 }

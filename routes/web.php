@@ -44,7 +44,15 @@ Route::post("news-register","NewsController@store")->name("news-register");
 
 Route::get("view-details","Search@viewDetails")->name("view-details");
 
+
+Route::get('register-user', 'UserController@create')->name("register-user");
+
+Route::post('register-user', 'UserController@store')->name("register-user");
+
 Route::resource("class","ClassesController");
+Route::get("school-details/{id}","SchoolController@schoolDetails")->name("school-details");
+
+Route::get("reserve-class/{id}/school/{schoolId}","ClassesController@reserveClass")->name("reserve-class");
 
 
 Route::get('/home', 'HomeController@index')->name('home');

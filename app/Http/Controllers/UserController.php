@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\School;
 use http\Client\Curl\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
@@ -24,7 +27,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view("register-user");
     }
 
     /**
@@ -35,7 +38,17 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $school = -1;
+         $user = \App\User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'user_type' => "client",
+            'school_id' =>$school
+        ]);
+        Auth::loginUsingId($user->id);
+        $schoolAddress = School::all();
+        return view('welcome')->with("schoolAddress",$schoolAddress);
     }
 
     /**
