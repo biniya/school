@@ -2,7 +2,7 @@
 @section('school-content')
 
     <div class="container">
-        <section class="hero is-primary">
+        <section class="hero is-black">
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title">

@@ -95,7 +95,7 @@ class ClassesController extends Controller
 
         Classes::where("school_id",$request->school)->where("grade",$request->class)->update($class);
 
-        return view('user-settings')->with('schools',$schools)->with("success","You have successfully reserved a place in ".$request->class);
+        return view('user-settings')->with('schools',$schools)->with("success","You have successfully reserved a place in ".$request->class)->with("passwordsuccess","You have Successfully changed your password");
     }
 
     /**

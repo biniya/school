@@ -299,17 +299,12 @@
         <div class="tile is-ancestor">
             <article class="tile is-child notification is-grey-dark">
                 <div class="content">
-                    <p class="subtitle">Highlights of our latest work</p>
+                    <p class="subtitle has-text-weight-bold">Highlights of our latest work</p>
                     <p class="is-small">
-                        Lorem ipsum dolor sit amet, ex has nemore detraxit, id etiam viris pro, ea dicta falli cotidieque his. Eos adhuc facilis id, mel assum incorrupte et. Est et nobis euripidis, quas idque est ut. Id oblique albucius nec, cum ubique aperiri at, ea aperiri dolorem vivendo pro.
-
-                        Eu inimicus consetetur repudiandae mea. Eam cu ancillae adversarium. In usu ornatus gloriatur dissentiunt, an quaeque hendrerit vis. Mea ex justo eruditi. Ad pri tale movet definitionem.
-
-                        Utinam fierent eu nec. Ut his omittam scribentur, ne vix mazim iracundia sadipscing. Verterem recteque maluisset per eu, detracto delicatissimi has ei, eu nec purto feugait assentior. Per id natum gubergren prodesset, principes imperdiet assueverit eos ex. Ei alia autem nominati mei. Per ut errem eleifend, sed no augue affert verear, nibh mandamus ei has.
-
-                        Autem debitis gloriatur duo id, malorum ceteros his no. Accusata platonem delicatissimi ex nec, reque eripuit elaboraret id eum, te eos habeo pertinacia conclusionemque. Ad usu appareat indoctum efficiantur. Eu sea affert option, eum ex fugit antiopam accommodare.
-
-                        Ius ne aeterno lucilius, ne iisque contentiones pro, has no quem oratio pertinax. Omnium minimum eligendi sea ad. Et sea quod virtute. Quis modo quaeque te duo.
+                        We believe that a happy child is a successful one. We are committed to providing a positive
+                        environment for you to choose your a best school for your child.
+                        We intend that all children should enjoy their learning, achieve their potential
+                        and become independent life-long learners.
                     </p>
                     <div class="content">
                         <!-- Content -->
@@ -320,45 +315,43 @@
         </div>
         <br>
         <br>
-        <div class="columns " >
-            <div class="column">
-                <p class="subtitle">Empowering parents</p>
-                <br>
-                School Finder is the leading national
-                nonprofit empowering parents to unlock
-                educational opportunities for their children.
-                We provide school information and parenting resources
-                to help millions of Etiopian families choose the right school,
-                support learning at home, and guide their children to great futures.
-            </div>
-            <div class="column">
-                <p class="subtitle">Join us</p>
-                <a>Supporters</a><br>
-                <a>Licensing</a><br>
-                <a>Sponsorship</a><br>
-                <a>Advertising</a><br>
-                <a>Careers</a>
-            </div>
-            <div class="column">
-                <p class="subtitle">Learn more</p>
-                <a>Newsletter</a><br>
-                <a>Privacy policy</a><br>
-                <a>Terms of use</a><br>
-                <a>About us</a><br>
-                <a>Contact us</a>
-            </div>
-            <div class="column">
-                <p class="subtitle">Connect</p>
-                <a href="www.facebook.com">Facebook</a><br>
-                <a href="www.twitter.com">Twitter</a><br>
-                <a href="www.youtube.com">YouTube</a><br>
-                <a href="www.telegram.org">Telegram</a><br>
-                <a href="www.instagram.com">Instagram</a>
-
-            </div>
-        </div>
     </div>
 </section>
 </body>
+<div class="columns has-background-black " style="padding-left: 150px">
+    <div class="column">
+        <p class="subtitle has-text-white has-text-weight-bold">Empowering parents</p>
+        <p class="has-text-white"><br>
+            School Finder is the leading national
+            nonprofit empowering parents to unlock
+            educational opportunities for their children.
+        </p>
+    </div>
+    <div class="column">
+        <p class="subtitle has-text-white has-text-weight-bold">Join us</p>
+        <a class="has-text-white">Supporters</a><br>
+        <a class="has-text-white">Licensing</a><br>
+        <a class="has-text-white">Sponsorship</a><br>
+        <a class="has-text-white">Advertising</a><br>
+        <a class="has-text-white">Careers</a>
+    </div>
+    <div class="column">
+        <p class="subtitle has-text-white has-text-weight-bold">Learn more</p>
+        <a class="has-text-white">Newsletter</a><br>
+        <a class="has-text-white">Privacy policy</a><br>
+        <a class="has-text-white">Terms of use</a><br>
+        <a class="has-text-white">About us</a><br>
+        <a class="has-text-white">Contact us</a>
+    </div>
+    <div class="column">
+        <p class="subtitle has-text-white has-text-weight-bold">Connect</p>
+        <a class="has-text-white" href="www.facebook.com">Facebook</a><br>
+        <a class="has-text-white" href="www.twitter.com">Twitter</a><br>
+        <a class="has-text-white" href="www.youtube.com">YouTube</a><br>
+        <a class="has-text-white" href="www.telegram.org">Telegram</a><br>
+        <a class="has-text-white" href="www.instagram.com">Instagram</a>
+
+    </div>
+</div>
 </html>
 @endsection

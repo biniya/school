@@ -10,10 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
+    <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/aboutus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/aboutus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/school-admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/school-settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/school-settings.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user-settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607761233888</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add notification for changing password">
+      <created>1607761858464</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607761858464</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +370,9 @@
     <MESSAGE value="Add reserve class into users setting&#10;&#10;-User can now reserve class" />
     <MESSAGE value="Change the registration middleware to &quot;auth&quot;&#10;&#10;-Only signed in admins can now register school admins" />
     <MESSAGE value="Change school details and class reservation&#10;&#10;-Add school details page with classes list and reserve class button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change school details and class reservation&#10;&#10;-Add school details page with classes list and reserve class button" />
+    <MESSAGE value="Add notification for changing password" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -376,14 +390,16 @@
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607757241375" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607761233093">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1607773356540">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607761233093" />
-    <state x="2258" y="172" key="DiffContextDialog" timestamp="1607697924454">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607761857942" />
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607773356540" />
+    <state x="270" y="130" key="DiffContextDialog" timestamp="1607773342236">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607697924454" />
+    <state x="270" y="130" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607773342236" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1605434754382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -416,11 +432,12 @@
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605434757746" />
     <state x="259" y="20" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606998853016" />
-    <state x="2307" y="144" key="Vcs.Push.Dialog.v2" timestamp="1607688460144">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="310" y="114" key="Vcs.Push.Dialog.v2" timestamp="1607777025515">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606469474248" />
-    <state x="2307" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607688460144" />
+    <state x="2307" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607762108427" />
+    <state x="310" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607777025515" />
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605434758120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
