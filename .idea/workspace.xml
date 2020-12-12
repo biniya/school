@@ -11,14 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa5c011-266c-4044-8b99-11dc6f364e30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/school-details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SchoolController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SchoolController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register-user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/register-user.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/details.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user-settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user-settings.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607698012927</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Change school details and class reservation&#10;&#10;-Add school details page with classes list and reserve class button">
+      <created>1607761233888</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607761233888</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +357,8 @@
     <MESSAGE value="Add class logic to the system&#10;&#10;-Admin can add classes to the school&#10;-Admin can view classes to a certain school" />
     <MESSAGE value="Add reserve class into users setting&#10;&#10;-User can now reserve class" />
     <MESSAGE value="Change the registration middleware to &quot;auth&quot;&#10;&#10;-Only signed in admins can now register school admins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the registration middleware to &quot;auth&quot;&#10;&#10;-Only signed in admins can now register school admins" />
+    <MESSAGE value="Change school details and class reservation&#10;&#10;-Add school details page with classes list and reserve class button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change school details and class reservation&#10;&#10;-Add school details page with classes list and reserve class button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2131" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607001136448">
@@ -373,10 +376,10 @@
     <state x="1946" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1607182110180" />
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606817805148" />
     <state x="2500" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607757241375" />
-    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607698012411">
+    <state x="2408" y="0" key="CommitChangelistDialog2" timestamp="1607761233093">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607698012411" />
+    <state x="2408" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607761233093" />
     <state x="2258" y="172" key="DiffContextDialog" timestamp="1607697924454">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

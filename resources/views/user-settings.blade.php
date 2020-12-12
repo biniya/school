@@ -19,7 +19,7 @@
             <div class="columns features is-desktop is-vcentered">
 {{--                Change Password Column--}}
                 <div class="column is-4">
-                    <div class="card is-shady" style="height: 325px">
+                    <div class="card is-shady" style="height: 415px">
 
                         <div class="card-content">
                         <form method="POST" action="{{route("change-password")}}">
@@ -32,6 +32,13 @@
                             </div>
                             <button class="button is-link is-pulled-right" type="submit">Change Password</button>
                             </form>
+                            <div class="control" style="padding-top: 10px;">
+                                @if($passwordsuccess != "")
+                                    <div class="notification is-primary is-light">
+                                        {{$passwordsuccess}}
+                                    </div>
+                                @endif
+                            </div>
                         </div>
 
                     </div>

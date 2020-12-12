@@ -18,7 +18,7 @@ class UserSettings extends Controller
     public function index()
     {
         $schools = School::get();
-        return view('user-settings')->with('schools',$schools)->with("success","");
+        return view('user-settings')->with('schools',$schools)->with("success","")->with("passwordsuccess","");
     }
 
     /**
@@ -88,10 +88,11 @@ class UserSettings extends Controller
     }
 
     public function changePassword(Request $request) {
+        $schools = School::get();
         // check if a user is logged in
         if (!auth()->check()) {
             // Return a 403
-            return response(['status' => 'fail', 'message' => 'Please login into your account to change password.'], 403);
+            return view('user-settings')->with('schools',$schools)->with("success","")->with("passwordsuccess","Please Log in to your account to change password");
         }
 
         // Validate the inputs
@@ -102,13 +103,8 @@ class UserSettings extends Controller
 
         // Check if the current password is correct
         if (!Auth::attempt(['email' => auth()->user()->email, 'password' => $request->input('current_password')])) {
-            return response(
-                [
-                    'message' => 'The given data was invalid',
-                    'errors' => [ 'current_password' => ['The current password is incorrect.']]
-                ],
-                422
-            );
+            return view('user-settings')->with('schools',$schools)->with("success","")->with("passwordsuccess","Error! Incorrect Data");
+
         }
 
 //        // Change the password
@@ -116,6 +112,7 @@ class UserSettings extends Controller
         $user->password = Hash::make($request->input('new_password'));
         $user->save();
 
-        return response(['status' => 'success'], 200);
+        return view('user-settings')->with('schools',$schools)->with("success","")->with("passwordsuccess","You have Successfully changed your password");
+
     }
 }
